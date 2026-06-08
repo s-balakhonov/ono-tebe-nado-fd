@@ -1,23 +1,53 @@
 .header {
-	
+	/* display: flex; */
+	/* justify-content: space-between; */
+	/* align-items: center; */
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	align-items: center;
+	height: 293px;
+	padding: 0 50px;
+}
+
+.menu {
+	display: flex;
+	justify-content: space-between;
+	width: 391px;
+}
+
+.logo {
+	display: block;
+	width: 148px;
+}
+
+.logo img {
+	/* display: block; */
+	height: 100%;
+}
+
+.address {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 240px;
 }
 
 .cover {
-
+	height: 757px;
 }
 
 .description {
-
 }
 
 .lots {
-
+	height: 723px;
 }
 
 .about {
-
+	height: 595px;
 }
 
 .footer {
-	
+	height: 180px;
 }
