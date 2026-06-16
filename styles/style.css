@@ -16,11 +16,10 @@
   gap: 32px;
   justify-content: flex-start;
   align-items: center;
-  list-style: circle;
 }
 
 .header__links-list-item {
-  text-underline-offset: 3px;
+  list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -28,6 +27,7 @@
 }
 
 .header__link {
+  text-underline-offset: 3px;
 }
 
 .header__link_active {
@@ -240,7 +240,7 @@
 }
 
 .about {
-  height: 595px;
+  min-height: 595px;
   padding: 35px 24px 0;
   margin: 120px 0 180px;
   display: grid;
@@ -282,7 +282,7 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  height: 180px;
+  min-height: 180px;
   padding: 0 50px;
 }
 
@@ -302,7 +302,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-
   list-style: none;
 }
 
@@ -314,12 +313,12 @@
 }
 
 .footer__menu-link_active {
+  text-decoration: none;
 }
 
 .footer__social-list {
   width: 240px;
   justify-self: end;
-
   display: flex;
   justify-content: space-between;
   list-style: none;
